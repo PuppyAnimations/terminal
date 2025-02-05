@@ -59,5 +59,6 @@ nav.navigation.pagination .nav-links span.current {
 
 /* Override the menu toggle background color */
 .menu-toggle {
-    background-color: var(--body-background) !important;
+	background-color: var(--body-background);
+	border: 2px solid var(--primary-color);
 }
