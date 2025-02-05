@@ -7,3 +7,13 @@
  Version:      1.0.0
  Template:     terminal-blog
 */
+:root {
+    --body-background: #101010;
+    --primary-color: #ffffff;
+    --header-text-color: #000000;
+    --color-background: #000000;
+}
+
+.grecaptcha-badge {
+    visibility: hidden; 
+}
