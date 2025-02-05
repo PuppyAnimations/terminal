@@ -62,3 +62,8 @@ nav.navigation.pagination .nav-links span.current {
 	background-color: var(--body-background) !important;
 	border: 2px solid var(--primary-color) !important;
 }
+
+/* Center the content within the entry header */
+.entry-header {
+    text-align: center;
+}
