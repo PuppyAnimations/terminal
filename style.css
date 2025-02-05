@@ -16,10 +16,12 @@
     --header-text-color: #ffffff !important;
 }
 
-/* Hide the reading-time badge for articles*/
-.reading-time {
+/* Hide the reading-time and comment badge for articles*/
+.read-time-comment {
     display: none !important;
 }
+
+.far fa-comment
 
 /* Hide the re-gaptcha badge*/
 .grecaptcha-badge {
