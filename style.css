@@ -11,8 +11,7 @@
 :root {
     --body-background: #101010 !important;
     --primary-color: #ffffff !important;
-    --header-text-color: #000000 !important;
-    --color-background: #000000!important;
+    --color-background: #00 !important;
     --header-text-color: #ffffff !important;
 }
 
@@ -25,7 +24,7 @@
 
 /* Hide the re-gaptcha badge*/
 .grecaptcha-badge {
-    visibility: hidden; 
+    visibility: hidden !important; 
 }
 
 /* Override default button color */
