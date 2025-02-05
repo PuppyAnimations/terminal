@@ -12,7 +12,7 @@
     --primary-color: #ffffff !important;
     --header-text-color: #000000 !important;
     --color-background: #000000!important;
-    --header-text-color: #ffffff;
+    --header-text-color: #ffffff !important;
 }
 
 .grecaptcha-badge {
