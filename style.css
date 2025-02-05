@@ -16,6 +16,12 @@
     --header-text-color: #ffffff !important;
 }
 
+/* Hide the reading-time badge for articles*/
+.reading-time {
+    display: none;
+}
+
+/* Hide the re-gaptcha badge*/
 .grecaptcha-badge {
     visibility: hidden; 
 }
