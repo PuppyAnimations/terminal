@@ -18,7 +18,7 @@
 
 /* Hide the reading-time badge for articles*/
 .reading-time {
-    display: none;
+    display: none !important;
 }
 
 /* Hide the re-gaptcha badge*/
@@ -31,26 +31,26 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-	background: var(--color-background);
-	color: var(--color-background);
+	background: var(--color-background) !important;
+	color: var(--color-background) !important;
 }
 
 /* Override the search widget button color*/
 .widget.widget_search .wp-block-search__inside-wrapper .wp-block-search__button {
-	color: var(--body-background);
+	color: var(--body-background) !important;
 }
 
 /* Override the navigation search icon color */
 .navigation-search .navigation-search-wrap .navigation-search-icon {
-	color: var(--primary-color);
+	color: var(--primary-color) !important;
 }
 
 /* Override the navigation search form color */
 .navigation-search .navigation-search-wrap .navigation-search-form .search-form input.search-submit {
-	color: var(--body-background);
+	color: var(--body-background) !important;
 }
 
 /* Override the current pagination color */
 nav.navigation.pagination .nav-links span.current {
-	color: var(--body-background);
+	color: var(--body-background) !important;
 }
