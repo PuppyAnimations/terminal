@@ -17,3 +17,49 @@
 .grecaptcha-badge {
     visibility: hidden; 
 }
+
+/* Override default button styles */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+	-webkit-appearance: button;
+	font-size: var(--font-size-sm);
+	border: 1px solid;
+	border-color: var(--primary-color);
+	background: #000;
+	border-radius: 3px;
+	color: #000;
+	line-height: 1;
+	padding: 0.6em 1em;
+}
+
+/* Override the search widget button */
+.widget.widget_search .wp-block-search__inside-wrapper .wp-block-search__button {
+	cursor: pointer;
+	color: var(--body-background);
+	background-color: var(--primary-color);
+	margin: 0;
+	padding: 10px 25px;
+}
+
+/* Override the navigation search icon color */
+.navigation-search .navigation-search-wrap .navigation-search-icon {
+	color: var(--primary-color);
+}
+
+/* Override the search submit button within the navigation search form */
+.navigation-search .navigation-search-wrap .navigation-search-form .search-form input.search-submit {
+	border-radius: 0px;
+	width: 25%;
+	margin: 0;
+	font-size: var(--font-size-sm);
+	border: none;
+	background: var(--primary-color);
+	color: var(--body-background);
+}
+
+/* Override the current pagination color */
+nav.navigation.pagination .nav-links span.current {
+	color: var(--body-background);
+}
