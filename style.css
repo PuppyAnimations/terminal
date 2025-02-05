@@ -7,6 +7,7 @@
  Version:      1.0.0
  Template:     terminal-blog
 */
+
 :root {
     --body-background: #101010 !important;
     --primary-color: #ffffff !important;
@@ -19,29 +20,18 @@
     visibility: hidden; 
 }
 
-/* Override default button styles */
+/* Override default button color */
 button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-	-webkit-appearance: button;
-	font-size: var(--font-size-sm);
-	border: 1px solid;
-	border-color: var(--primary-color);
-	background: #000;
-	border-radius: 3px;
-	color: #000;
-	line-height: 1;
-	padding: 0.6em 1em;
+	background: var(--color-background);
+	color: var(--color-background);
 }
 
-/* Override the search widget button */
+/* Override the search widget button color*/
 .widget.widget_search .wp-block-search__inside-wrapper .wp-block-search__button {
-	cursor: pointer;
 	color: var(--body-background);
-	background-color: var(--primary-color);
-	margin: 0;
-	padding: 10px 25px;
 }
 
 /* Override the navigation search icon color */
@@ -49,14 +39,8 @@ button,
 	color: var(--primary-color);
 }
 
-/* Override the search submit button within the navigation search form */
+/* Override the navigation search form color */
 .navigation-search .navigation-search-wrap .navigation-search-form .search-form input.search-submit {
-	border-radius: 0px;
-	width: 25%;
-	margin: 0;
-	font-size: var(--font-size-sm);
-	border: none;
-	background: var(--primary-color);
 	color: var(--body-background);
 }
 
