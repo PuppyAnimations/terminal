@@ -20,8 +20,6 @@
     display: none !important;
 }
 
-.far fa-comment
-
 /* Hide the re-gaptcha badge*/
 .grecaptcha-badge {
     visibility: hidden !important; 
