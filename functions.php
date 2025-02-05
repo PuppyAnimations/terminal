@@ -1,14 +1,12 @@
 <?php
-function terminal_child_enqueue_styles() {
-    // Enqueue Parent Theme's stylesheet
-    wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
-    
-    // Enqueue Child Theme's stylesheet (this file)
-    wp_enqueue_style( 'child-style',
+function my_child_theme_enqueue_styles() {
+    $parent_style = 'terminal-blog';
+    wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' );
+    wp_enqueue_style( 'terminal',
         get_stylesheet_directory_uri() . '/style.css',
-        array('parent-style'),
+        array( $parent_style ),
         wp_get_theme()->get('Version')
     );
 }
-add_action( 'wp_enqueue_scripts', 'terminal_child_enqueue_styles' );
+add_action( 'wp_enqueue_scripts', 'my_child_theme_enqueue_styles' );
 ?>
