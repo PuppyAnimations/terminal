@@ -65,8 +65,7 @@ nav.navigation.pagination .nav-links span.current {
     text-align: center;
 }
 
-
 /* Center the content within the entry meta section */
 .entry-meta {
-    text-align: center;
+    text-align: center !important;
 }
