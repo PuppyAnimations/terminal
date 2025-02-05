@@ -33,7 +33,7 @@ button,
 [type="reset"],
 [type="submit"] {
 	background: var(--color-background) !important;
-	color: var(--color-background) !important;
+	color: var(--primary-color) !important;
 }
 
 /* Override the search widget button color*/
