@@ -64,3 +64,9 @@ nav.navigation.pagination .nav-links span.current {
 .entry-header {
     text-align: center;
 }
+
+
+/* Center the content within the entry meta section */
+.entry-meta {
+    text-align: center;
+}
