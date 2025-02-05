@@ -11,7 +11,7 @@
 :root {
     --body-background: #101010 !important;
     --primary-color: #ffffff !important;
-    --color-background: #00 !important;
+    --color-background: #101010 !important;
     --header-text-color: #ffffff !important;
 }
 
