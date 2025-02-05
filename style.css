@@ -8,10 +8,10 @@
  Template:     terminal-blog
 */
 :root {
-    --body-background: #101010;
-    --primary-color: #ffffff;
-    --header-text-color: #000000;
-    --color-background: #000000;
+    --body-background: #101010 !important;
+    --primary-color: #ffffff !important;
+    --header-text-color: #000000 !important;
+    --color-background: #000000!important;
 }
 
 .grecaptcha-badge {
